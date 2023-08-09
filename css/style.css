@@ -88,9 +88,14 @@
     
     .container-1{
         display: flex;
-        flex-direction: row;
         margin: 10px;
         padding: 10px;
+       
+
+    }
+
+    .container2{
+        margin-left: 100px;
 
     }
     .color-blue{
@@ -122,6 +127,7 @@
        
     }
     .main-content{
+        
         border:none;
         height: 400px;
         width: 400px;
@@ -146,13 +152,12 @@
         margin-bottom: 40px;
     }
     .img-nine{
-        margin-left:1000px;
+        display: flex;
+        justify-content:end;
         
     }
-    .container2{
-       position: relative;
-       bottom: 660px;
-    }
+    
+    
     .text-container{
         border: 1px solid black;
         height:170px;
@@ -160,12 +165,55 @@
       margin: 30px;
       padding: 10px;
       border-radius: 30px; 
-      margin-bottom: 20px;
+      /* margin-bottom: 20px; */
       
         }
 
+        .footer {
+            display: flex;
+            justify-content:space-around;
+            background-color: black;
+            color: white;
+            margin-top: 0;
+            height: 280px;
+            padding: 20px;
+            font-size: 25px;
+        }
+        
+        .tagline-footer {
+            font-size: 15px;
+        }
+        
+        .logo1{
+            border-radius: 50%;
+            position: relative;
+            top: 45px;
+            box-shadow: 0 3px 4px 2px rgb(105, 103, 103);
+            left:-5px;
+        }
+        
+        .list-links {
+            margin-left: 30px;
+            font-size:20px ;
+        }
+        
+        ul li a {
+            text-decoration-line: none;
+            color: aliceblue;
+        }
+        
+        .address{
+            font-size:20px;
+            
+            
+        }
+        .multi{
+            margin-left: 37px;
+        }
+        
 
-        @media screen and(min-width: 600px)and(max-width:900px);{
+
+        /* @media screen and(min-width: 600px)and(max-width:900px){
            
             .text{
   
@@ -198,4 +246,40 @@
             }        
 
             
+        } */
+
+
+
+
+
+
+
+
+        @media screen and (min-width: 360px)and(max-width:740px){
+
+        .container {
+            display: flex;
+            /* padding: 15px; */
+            justify-content: end;
+            background-color: rgb(10, 10, 246);
+            /* margin-bottom: 10px; */
+            width: 1301px;
         }
+        .img-contain {
+            margin-top: 0;
+            background-image: url(https://img.freepik.com/premium-vector/smartphone-internet-banking-concept-vector-illustration-digital-money_87561-544.jpg?w=1060);
+            background-size: cover;
+            height: 850px;
+            width: 1298px;
+        }
+       
+
+
+
+
+
+
+
+
+
+    }
