@@ -255,7 +255,7 @@
 
 
 
-        @media screen and (min-width: 360px)and(max-width:740px){
+        @media screen and (min-width: 600px)and(max-width:740px){
 
         .container {
             display: flex;
@@ -270,9 +270,19 @@
             background-image: url(https://img.freepik.com/premium-vector/smartphone-internet-banking-concept-vector-illustration-digital-money_87561-544.jpg?w=1060);
             background-size: cover;
             height: 850px;
-            width: 1298px;
+            width: 1200px;
+            display: flex;
         }
-       
+        .flex-text {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .flex-text{
+            flex-wrap: wrap;
+            display: flex;
+        }
 
 
 
