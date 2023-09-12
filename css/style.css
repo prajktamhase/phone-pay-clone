@@ -108,6 +108,15 @@
         margin: 10px;
 
     }
+
+
+    
+    .flex-card{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+    }
     .flex-text{
         display: flex;
         flex-direction: row;
