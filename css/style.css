@@ -62,8 +62,6 @@
     }
     .container-1{
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
         margin: 10px;
         padding: 10px;
        }
@@ -108,6 +106,15 @@
         box-shadow: 1px 1px 1px 1px black;
         padding: 10px;
         margin: 10px;
+
+    }
+
+
+    
+    .flex-card{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 
     }
     .flex-text{
@@ -212,6 +219,14 @@
             flex-wrap: wrap;
             display: flex;
         }
+        .container-1{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            margin: 10px;
+            padding: 10px;
+           }
+    
 
 
 
